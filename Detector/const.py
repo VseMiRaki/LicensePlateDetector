@@ -1,0 +1,2 @@
+OK = 1
+NOTFOUND = 2
