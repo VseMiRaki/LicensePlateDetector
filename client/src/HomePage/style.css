@@ -1,0 +1,12 @@
+.winner{
+    background-color: rgb(138, 255, 138);
+}
+
+.loser{
+    background-color: rgb(255, 138, 138);
+}
+
+.standart{
+    background-color: #edeff0;
+}
+
