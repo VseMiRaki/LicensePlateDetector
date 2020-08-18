@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  float: left;
+  padding-left: 10px;
+}
+
+.link {
+  color: white;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.fakeimg {
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  padding: 20px;
+}
+
+.topnav {
+  background-color: #29235c;
+  overflow: hidden;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  width: 100%;
+}
+
+.topnav a {
+  color: white;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #ef9e29;
+  color: white;
+}
+
+.topnav a.right {
+  float: right;
+}
+
+.topnav a.active {
+  background-color: #ef9e29;
+  color: white;
+}
+
+.header {
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: #edeff0;
+}
+
+#usernames {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#usernames td, #usernames th {
+  border: 1px solid rgb(123, 121, 136);
+  padding: 8px;
+}
+
+#usernames tr:nth-child(even){background-color: #c4c4c4;}
+
+#usernames tr:hover {background-color: rgb(158, 158, 158);}
+
+#usernames th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #29235c;
+  color: #d3d3d3;
+}
+
+@media screen and (max-width: 1500px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
